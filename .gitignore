@@ -1,0 +1,40 @@
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Terraform configuration files for providers
+# Not always needed, but good practice if you have specific provider config
+# that shouldn't be shared.
+.terraform.lock.hcl
+
+# Local settings and data (e.g., used by IDEs or specific tooling)
+# Depending on your IDE or tools, you might need to add more.
+# For example, if you use VS Code:
+.vscode/
+
+# Ignore provider-specific files that may contain secrets or large binaries
+# If using AWS:
+.aws-vault/
+
+
+# Terraform generated files (regardless of the directory)
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/*.tfplan
+
+# Variable files that may contain sensitive data
+**/terraform.tfvars
+# Or if you use specific environment vars:
+# terraform/prod.tfvars
+# terraform/stage.tfvars
+
+# Python/Notebook files (optional, but good practice)
+*.pyc
+.ipynb_checkpoints/
+
