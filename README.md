@@ -51,4 +51,4 @@ This is the core research phase of the project, addressing the hardware-algorith
 - **Math**: Finite Fields, Poly-arithmetic, FRI
 
 ## License
-[MIT]
+[Apache-2.0 license]
